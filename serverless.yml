@@ -10,5 +10,5 @@ provider:
   region: us-east-1
 
 functions:
-  hello:
-    handler: src/handler.hello
+  generateRandomNumber:
+    handler: src/handler.generateRandomNumber
