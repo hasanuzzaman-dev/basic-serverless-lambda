@@ -3,7 +3,8 @@
 module.exports.generateRandomNumber = async (event) => {
   
   const randomNumber = parseInt(Math.random() * 100);
-  console.log("The random number is: ",randomNumber);
+  console.log("The random number is: ", randomNumber);
+  console.log("Hello");
 
   return randomNumber;
 };
